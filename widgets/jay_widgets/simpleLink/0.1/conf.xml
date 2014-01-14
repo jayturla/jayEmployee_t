@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.jay.widgets.SimpleLinkWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>Simple Link</label>
+  <description>Simple Link Widget</description>
+</widget>

@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.jay.widgets.MenuSideWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>Menu Side Navi</label>
+  <description>Menu Side Navi</description>
+</widget>

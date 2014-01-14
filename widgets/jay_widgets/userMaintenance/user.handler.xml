@@ -1,0 +1,4 @@
+<requestHandler>
+	<class>tooltwist.jay.requestHandlers.UserRequestHandler</class>
+	<description>User Request Handler</description>
+</requestHandler>

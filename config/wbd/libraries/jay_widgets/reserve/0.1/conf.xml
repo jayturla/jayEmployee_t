@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.jay.widgets.ReserveWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>reserve</label>
+  <description>reserve</description>
+</widget>

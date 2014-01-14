@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<entity>
+    <tableName>user</tableName>
+    <longName>User</longName>
+    <attribute>
+        <name>password</name>
+        <sequence>2</sequence>
+        <columnLength>50</columnLength>
+        <description>Password</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>userId</name>
+        <sequence>0</sequence>
+        <uniqueKey>Y</uniqueKey>
+        <primaryKey>Y</primaryKey>
+        <description>User Id</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>IDENTITY</typeAttribute>
+    </attribute>
+    <attribute>
+        <name>username</name>
+        <sequence>1</sequence>
+        <columnLength>50</columnLength>
+        <uniqueKey>N</uniqueKey>
+        <primaryKey>N</primaryKey>
+        <description>username</description>
+        <typeScopeType>P</typeScopeType>
+        <typeAttribute>VARCHAR</typeAttribute>
+    </attribute>
+</entity>

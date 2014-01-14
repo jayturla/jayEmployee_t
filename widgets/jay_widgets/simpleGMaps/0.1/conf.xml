@@ -1,0 +1,6 @@
+<widget>
+  <widgetClass>tooltwist.jay.widgets.SimpleGMapsWidget</widgetClass>
+  <idWithinRootWidget>0</idWithinRootWidget>
+  <label>Google Maps Simple</label>
+  <description>Google Maps Simple</description>
+</widget>

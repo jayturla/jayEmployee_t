@@ -1,0 +1,96 @@
+/* Styles for widget menuSide */
+
+#cssmenu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: verdana, geneva, arial, helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #8e8e8e;
+ 
+}
+#cssmenu > ul {
+  margin-top: 6px !important;
+}
+#cssmenu ul {
+  
+}
+#cssmenu ul ul {
+
+}
+#cssmenu ul ul a {
+  line-height: 43px;
+}
+#cssmenu ul ul ul {
+  
+}
+#cssmenu li {
+ display:inline;
+}
+#cssmenu li a {
+  color: #666666;
+  display: block;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0px 25px;
+
+  text-decoration: none;
+}
+#cssmenu li a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+#cssmenu li ul {
+  background: #e0e0e0;
+  border-left: 2px solid #a62403;
+  border-right: 2px solid #a62403;
+  border-bottom: 2px solid #a62403;
+  display: none;
+  height: auto;
+  filter: alpha(opacity=95);
+  opacity: 0.95;
+ 
+  width: 225px;
+  z-index: 200;
+  /*top:1em;
+		/*left:0;*/
+
+}
+
+/* to display the submenus */
+#cssmenu li > ul {
+  display: block;
+}
+#cssmenu li li {
+  display: block;
+  float: none;
+  padding: 0px;
+  position: relative;
+  width: 225px;
+}
+#cssmenu li ul a {
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+#cssmenu li ul a:active {
+
+}
+#cssmenu p {
+  clear: left;
+}
+#cssmenu .active > a {
+  background: #a62403;
+  -webkit-box-shadow: 0 -4px 0 #a62403, 0 -5px 0 #b63b1c, 0 -6px 0 #a62403;
+  -moz-box-shadow: 0 -4px 0 #a62403, 0 -5px 0 #b63b1c, 0 -6px 0 #a62403;
+  box-shadow: 0 -4px 0 #a62403, 0 -5px 0 #b63b1c, 0 -6px 0 #a62403;
+  color: #ffffff;
+}
+
+#cssmenu .active > a:active {
+  color: green;
+}
